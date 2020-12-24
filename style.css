@@ -65,6 +65,9 @@ a {
   overflow: hidden;
   width: 100%;
 }
+.card-info__update svg path {
+  fill: #fff;
+}
 .card-info svg {
   fill: rgba(0, 0, 0, 0.2);
 }

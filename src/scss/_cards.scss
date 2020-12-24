@@ -8,6 +8,12 @@
   overflow: hidden;
   width: 100%;
 
+  &__update {
+    svg path {
+      fill: #fff;
+    }
+  }
+
   svg {
     fill: rgba(0,0,0,0.2);
   }
