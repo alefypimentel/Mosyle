@@ -1,0 +1,1 @@
+To compile the css use: sass --watch src/scss/style.scss style.css

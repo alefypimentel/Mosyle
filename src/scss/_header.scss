@@ -1,0 +1,44 @@
+#header {
+  background-color: #04998d;
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.3);
+  color: #fff;
+  padding: 10px 15px;
+}
+
+.header {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  
+  &__user {
+    font-size: 15px;
+    text-transform: capitalize;
+  }
+  
+  &__menu {
+    align-items: center;
+    display: flex;
+    list-style: none;
+    
+    &-item {
+      & + & {
+        margin-left: 20px;
+      }
+
+      a {
+        align-items: center;
+        color: #fff;
+        display: flex;
+        font-size: 15px;
+        text-decoration: none;
+      }
+
+      svg {
+        fill: #fff;
+        height: 20px;
+        margin-right: 5px;
+        width: 20px;
+      }
+    }
+  }
+}
